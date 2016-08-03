@@ -6,6 +6,7 @@ apt-get install -y \
 	build-essential \
 	checkinstall \
 	curl \
+	fish \
 	gimp \
 	git-all \
 	gparted \

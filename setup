@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "set -U fish_greeting" | fish
+chsh -s /usr/bin/fish
