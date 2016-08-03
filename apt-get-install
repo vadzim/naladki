@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+apt-get install -y \
+	atom \
+	build-essential \
+	checkinstall \
+	curl \
+	gimp inkscape \
+	git-all \
+	gparted \
+	mc \
+	nodejs \
+	p7zip-full \
+	sublime-text-installer \
+	tor \
+	vim \
+	virtualbox \
+	vlc \
+	wine \

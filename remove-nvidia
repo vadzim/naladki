@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+nvidia-settings --uninstall
+apt-get remove -y --purge 'nvidia*'
+apt-get remove -y --purge xserver-xorg-video-nouveau
+apt-get remove -y --purge xserver-xorg-video-nv
+apt-get install -y nvidia-common
+apt-get install -y xserver-xorg-video-nouveau
+apt-get install -y --reinstall libgl1-mesa-glx libgl1-mesa-dri xserver-xorg-core
+dpkg-reconfigure xserver-xorg
+
