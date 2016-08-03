@@ -1,4 +1,5 @@
 // Url address like: file:///path/to/file/proxy.pac
+// Check in browser settings: remote dns
 
 function FindProxyForURL( url, host ) {
 	if (
