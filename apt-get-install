@@ -1,17 +1,20 @@
 #!/usr/bin/env bash
 
 apt-get install -y \
+	aria2 \
 	atom \
 	build-essential \
 	checkinstall \
 	curl \
-	gimp inkscape \
+	gimp \
 	git-all \
 	gparted \
+	inkscape \
 	mc \
 	nodejs \
 	p7zip-full \
 	sublime-text-installer \
+	tmux \
 	tor \
 	vim \
 	virtualbox \
