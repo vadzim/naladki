@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cp ./sources.list.d/local.list /etc/apt/sources.list.d/local.list
+cp ./trusted.gpg.d/local.gpg /etc/apt/trusted.gpg.d/local.gpg
