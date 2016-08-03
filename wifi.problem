@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rmmod acer_wmi
+echo "blacklist acer_wmi" | tee /etc/modprobe.d/blacklist-acer_wmi.conf
