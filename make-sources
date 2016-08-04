@@ -13,4 +13,5 @@ deb-src http://ppa.launchpad.net/webupd8team/sublime-text-3/ubuntu $DISTR main
 deb http://ppa.launchpad.net/webupd8team/atom/ubuntu $DISTR main 
 deb-src http://ppa.launchpad.net/webupd8team/atom/ubuntu $DISTR main
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
+deb http://dl.google.com/linux/talkplugin/deb/ stable main
 " > ./sources.list.d/local.list

@@ -3,18 +3,30 @@
 apt-get install -y \
 	aria2 \
 	atom \
+	audacity \
 	build-essential \
 	checkinstall \
 	curl \
+	docker.io \
+	elixir \
+	firefox \
 	fish \
+	ghc \
 	gimp \
 	git-all \
+	google-chrome-stable \
+	google-chrome-unstable \
+	google-talkplugin \
 	gparted \
 	inkscape \
+	libreoffice \
 	mc \
+	mercurial \
 	nodejs \
 	p7zip-full \
+	ruby \
 	sublime-text-installer \
+	subversion \
 	tmux \
 	tor \
 	vim \
